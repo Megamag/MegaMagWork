@@ -22,5 +22,7 @@ public class Main
 		{
 		out.println(i);
 		}
+		
+		out.println("Hi");
 	}
 }
