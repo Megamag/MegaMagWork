@@ -14,7 +14,12 @@ public class Main
 	{
 		err.println(list.size());
 		list.add("Yaacov Rozenbaum 052-3473312");
+		list.add("Yaacov Rozenbaum 052-3473312");
+		list.add("Yaacov Rozenbaum 052-3473312");
 		err.println(list.size());
-		out.println(list.get(0));
+		for(int i = 0; i < list.size(); i++)
+		{
+		out.println(list.get(i));
+		}
 	}
 }
